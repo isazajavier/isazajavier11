@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Propiedades de Ubicación</title>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+    font-family:sans-serif   
+	}
+    
+#chat{
+    position:fixed;
+    width: 200px;
+    height: 40px;
+    bottom: 0;
+    right: 350px;
+    background: purple;
+    z-index: 1;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    }
+
+header{
+	position:relative;
+	margin:20px auto;
+	width:1000px;
+	height:120px;
+	}
+#logo{
+	position:absolute;
+	top:30px;
+	right:30px;
+	width:200px;
+	height:60px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    
+	}
+.iconos{
+	position:absolute;
+	width:42px;
+	height:42px;
+	background:white;
+	border-radius:100%;
+    text-align: center;
+    line-height: 42px;
+    color:white
+    
+	}
+#imagen1{
+	top:42px;
+    left:19px;
+    background: purple;
+	}
+	
+#imagen2{
+	top:42px;
+	left:71px; 
+    background: blue;
+	}
+	
+#imagen3{
+	top:42px;
+	left:120px;
+    background: pink;
+	}
+		
+nav{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:48px;
+	}
+    
+.acciones{
+	float:left;
+	width:192px;
+	margin:0px 4px;
+	height:48px;
+	background:#04B4AE;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+	}
+	
+#first{
+	position:relative;
+	margin:20px auto;
+	width:1000px;
+	height:192px;
+	}
+#first ul{
+    width:1010px;
+	height:192px;
+    }
+    
+#first ul li{
+    float:left;
+    width:326px;
+	height:192px;
+    margin-right: 10px;
+    text-align: center;
+    }   
+    
+#first ul li img{
+    border-radius: 100%;
+    height: 100px;
+    }  
+
+#first ul li h1{
+    font-family: 'Indie Flower', cursive;
+    }  
+    
+#first ul li p{
+    font-size: 14px;
+    margin: 10px;
+    }
+    
+section{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:453px;
+	}
+aside#izquierda{
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+	height:453px;
+	}
+aside#izquierda ul li{
+	background: #58ACFA;
+    padding: 10px;
+    margin:2px 10px;
+    list-style: circle;
+    list-style-position: inside;
+    list-style-image:url(pin.jpg); 
+    
+	}
+	
+article{
+	position:absolute;
+	left:200px;
+	top:0;
+	width:600px;
+	height:453px;
+	}
+article h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin: 20px;
+    }
+article p img{
+    float:left;
+    margin-right: 20px;
+    
+    }
+article p{
+    margin: 5px 20px;
+    text-align: justify;
+    
+    }
+	
+aside#derecha{
+	position:absolute;
+	right:0;
+	top:0;
+	width:200px;
+	height:453px;
+	}
+aside#derecha h1{
+	width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #04B4AE;
+    color:white;
+    margin-bottom: 5px;
+	}
+aside#derecha input{
+    padding: 10px;
+    margin: 5px 0;
+    width: 176px;
+	}
+aside#derecha input[type="text"]{
+    background: url(usuario.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+	}
+aside#derecha input[type="password"]{
+    background: url(password.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+	}
+aside#derecha input[type="submit"]{
+    width: 200px;
+    background: #58ACFA;
+    border: 0;
+	}
+
+footer{
+	position:relative;
+	margin:20px auto;
+	width:1000px;
+	height:70px;
+    text-align: center;
+    line-height: 70px;
+    background:#04B4AE;
+    color:white
+	}
+	
+
+</style>
+
+</head>
+
+<body>
+    
+<div id="chat">Chat</div>
+
+<!-- Inicia Cabecera -->
+
+<header>
+
+	<div id="logo">Mi Logo</div>
+    
+    <div id="imagen1" class="iconos">i1</div>
+    <div id="imagen2" class="iconos">i2</div>
+    <div id="imagen3" class="iconos">i3</div>
+    
+</header>
+
+<!-- Cierra Cabecera -->
+
+<!-- Inicia Barra de Navegación -->
+<nav>
+
+	<ul>
+    
+    	<li class="acciones">Accion 1</li>
+        <li class="acciones">Accion 2</li>
+        <li class="acciones">Accion 3</li>
+        <li class="acciones">Accion 4</li>
+        <li class="acciones">Accion 5</li>
+  
+    </ul>
+
+</nav>
+
+<!-- Cierra Barra de Navegación -->
+
+<!-- Inicia parte Superior -->
+
+<div id="first">
+
+	<ul>
+    	<li>
+            <img src="img1.jpg" width="100">
+        	<h1>Imagen1</h1>
+            <p>Quorum sed senserit. Probant summis fabulas eu doctrina sunt ut ullamco amet.</p>
+        </li>
+        
+        <li>
+            <img src="img2.jpg" width="100">
+        	<h1>Imagen2</h1>
+            <p>O varias tamen multos mentitum do hic illum praesentibus, voluptate irure tamen 
+            </p>
+        </li>
+        
+        <li>
+            <img src="img3.jpg" width="100">
+        	<h1>Imagen3</h1>
+            <p>O varias tamen multos mentitum do hic illum praesentibus, voluptate irure tamen 
+            </p>
+        </li>
+    </ul>
+    
+</div>
+
+<!-- Cierra parte Superior -->
+
+<!-- Inicia Sección -->
+
+<section>
+	
+    <aside id="izquierda">
+        <ul>
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Link3</li>
+            <li>Link4</li>
+        </ul>
+    </aside>
+    
+    <article>
+        <h1>Lorem Ipsum</h1>
+        <p><img src="foto.jpg" width="250"> Litteris e legam. Id ingeniis adipisicing quo occaecat velit noster ea tamen, fabulas ita ullamco se varias relinqueret nescius minim mandaremus, iis amet ullamco laborum, se sint probant tractavissent et consequat dolore voluptate</p>
+            <br>
+        <p>Litteris e legam. Id ingeniis adipisicing quo occaecat velit noster ea tamen, fabulas ita ullamco se varias relinqueret nescius minim mandaremus, iis amet ullamco laborum, se sint probant tractavissent et consequat dolore voluptate.</p>
+    </article>
+    
+    <aside id="derecha">
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <input type="submit" value="Enviar">
+        </form>
+    </aside>
+    
+</section>
+
+<!-- Cierra Sección -->
+
+<!-- Inicia Pie de Página -->
+
+<footer>
+    &copy; Todos los derechos reservados
+</footer>
+
+<!-- Cierra Pie de Página -->
+
+
+</body>
+{</html>
+
